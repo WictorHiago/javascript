@@ -33,7 +33,9 @@ function menorMeioMaior(A,B,C) {
             menor = B
         }
     }
-    console.log(`maior ${maior} meio ${meio} menor ${menor} `)
+    var resultado = `maior ${maior} meio ${meio} menor ${menor} `
+    return resultado
+    
 }
     
     console.log(menorMeioMaior(30,60,20))
